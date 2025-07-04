@@ -71,8 +71,8 @@ keyboard = InlineKeyboardMarkup(
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://tinypic.host/images/2025/02/07/IMG_20250207_224444_975.jpg",
-    "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
+    "https://graph.org/file/bcf1fbe3708277ccb31e3-4d7967c1dbee1cce20.jpg",
+    "https://graph.org/file/bcf1fbe3708277ccb31e3-4d7967c1dbee1cce20.jpg",
     # Add more image URLs as needed
 ]
 
@@ -430,7 +430,7 @@ async def start(bot, m: Message):
             f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use Command : /help to get started 🌟\n\n"
-            f"If you face any problem contact -  [𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎](https://t.me/saini_contact_bot)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
+            f"If you face any problem contact -  [𝗚𝘂𝗺𝗻𝗮𝗮𝗺](https://t.me/Gumnaaam_hai_koi)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
         )
     else:
         await asyncio.sleep(2)
